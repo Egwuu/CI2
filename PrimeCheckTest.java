@@ -26,7 +26,7 @@ public class PrimeCheckTest {
   // --------------------------------------------------------------- //
   @Test
   public void testNonPrimes() {
-    /int[] nonPrimes = {0, 1, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27, 28, 30};
+      int[] nonPrimes = {0, 1, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27, 28, 30};
       for (int nonPrime : nonPrimes) {
     assertEquals("this will fail", true, false);
   }
